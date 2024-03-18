@@ -20,9 +20,7 @@
            </div>
 
            <button :disabled="!isFormValid"  class="p-2 disabled:opacity-50 disabled:cursor-not-allowed mt-2 bg-red-600 hover:bg-red-800 cursor-pointer text-white font-bold rounded" type="submit">Submit</button>
-         <!--write submit function at the form above @submit.prevent, not in the button. because a button iside a form
-        will invariably cause submission of of the form without the need to write @click in it.-->
-
+        
         </form>
     </div>
 </template>
